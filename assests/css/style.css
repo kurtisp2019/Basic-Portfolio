@@ -1,25 +1,68 @@
-header {
+/* STYLES!!!! */
+/* 
 
+
+*/
+.headerStyle {
+  height: 60px;
 }
-#aboutMeText{
-    text-align: center;
-    width: 400px;
+
+footer {
+  background-color: #666666;
+}
+.footerStyle {
+  text-align: center;
+  color: white;
+  height: 400px;
+  margin-top: 40px;
+  font-size: 10px;
+}
+.aboutMeBlock{
+    background: #ffffff;
+    margin-left: 100px;
+    position: absolute;
+    width: 700px;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 .MainBkg {
-    background:#55ffff;
+    background:#dddddd;
+    position: relative;
+    height: 500px;
+    
 }
-
-
+.aboutMeImg {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h1 {
+  padding-top:25px;
+  padding-bottom: 15px;
+  size:   125px;
+  color: teal;
+  margin-top:0px;
+  margin-left:5%;
+  text-align:left;
+  font-size: 30px;
+  font-weight: bold;
+}
 #YourName {
     margin-left:15%;
+    top: -68px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-top:20px;
-    height: 60px;
+    height: 48px;
     width: 200px;
     background:#4aaaa5;
     text-align: center;
     color: white;
     font-size: 20px;
+    position: absolute;
 }
 
 .clearFix::after {
@@ -31,15 +74,16 @@ header {
 ul {
     list-style-type: none;
     margin: 0;
+    padding-top: 50px;
+    margin-right: 150px;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
-    
   }
   
   li {
     float: right;
-    border-left: 0.2px inset #cccccc;
+    border-left: 1px solid #cccccc;
   }
   
   li a {
