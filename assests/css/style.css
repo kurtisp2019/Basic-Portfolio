@@ -1,0 +1,54 @@
+header {
+
+}
+#aboutMeText{
+    text-align: center;
+    width: 400px;
+}
+.MainBkg {
+    background:#55ffff;
+}
+
+
+#YourName {
+    margin-left:15%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top:20px;
+    height: 60px;
+    width: 200px;
+    background:#4aaaa5;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    
+  }
+  
+  li {
+    float: right;
+    border-left: 0.2px inset #cccccc;
+  }
+  
+  li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li:last-child {
+    border-left: none;
+  }
