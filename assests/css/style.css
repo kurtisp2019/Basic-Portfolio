@@ -3,17 +3,26 @@
 
 
 */
+.submitBtn {
+  color:  white;
+  background: #4aaaa5; 
+  height: 30px;
+  width: 70px;
+  margin-top: 10px;
+}
 .headerStyle {
   height: 60px;
 }
-
+.contactInputField {
+  width: 700px;
+}
 footer {
   background-color: #666666;
 }
 .footerStyle {
   text-align: center;
   color: white;
-  height: 400px;
+  height: 40px;
   margin-top: 40px;
   font-size: 10px;
 }
